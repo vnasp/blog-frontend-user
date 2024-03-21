@@ -1,0 +1,21 @@
+.main-login {
+    @include centrado-form();
+}
+
+.main-registro {
+    @include centrado-form();
+}
+
+.main-post-bootstrap {
+    background-color: #efefef;
+    border-radius: 10px;
+    padding:$sp5;
+    margin:$sp5 0;
+    font-size:$fs5;
+    text-align: center;
+
+    & img {
+      border-radius: 10px;
+      margin:$sp5;
+    }
+}

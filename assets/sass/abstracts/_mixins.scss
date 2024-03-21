@@ -1,0 +1,13 @@
+@mixin centrado-form() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: $sp4 0;
+}
+
+@mixin formato-form($ancho){
+    width: $ancho;
+    margin: 0 auto;
+    text-align: center;
+    padding: $sp2;
+}

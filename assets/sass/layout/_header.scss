@@ -1,0 +1,21 @@
+@import "../abstracts/variables";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid $border-color;
+  padding: 1rem 0;
+
+  &__nav {
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+    width: 50%;
+  }
+
+  &__nav a {
+    text-decoration: none;
+    color: $primary;
+  }
+}

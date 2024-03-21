@@ -1,0 +1,34 @@
+.form-registro {
+    @include formato-form(50%);
+
+    &__container-checkbox {
+        display:flex;
+        justify-content: space-between;
+        padding: $sp2 0;
+    }
+
+    &__text-checkbox {
+        font-size: $fs5;
+        color: $primary;
+    }
+    &__text-recupera-password {
+        font-size: $fs5;
+        color: $primary;
+    }
+
+    &__container-buttons{
+        display:flex;
+        flex-direction: column;
+        gap: $sp2;
+        padding: $sp2 0;
+    }
+
+    &__footer {
+        color: $primary;
+
+        & a{
+            color: $primary;
+            text-decoration: none;
+        }
+    }
+}

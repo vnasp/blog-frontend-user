@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Valentina Muñoz">
+  <meta name="description" content="Blog sobre programación Frontend">
+  <meta name="keywords" content="blog, frontend, programación web">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <title>Blog Frontend - Inicio de Sessión</title>
+</head>
+
+<body>
+  <header class="header">
+    <section class="logo">
+      <img src="./assets/img/logos/adl.png" class="logo__img" />
+      <a href="./">
+        <h1 class="logo__brand">Blog FrontEnd</h1>
+      </a>
+    </section>
+    <nav class="header__nav">
+      <div><a href="/registro.html">Registrarse</a></div>
+      <div><a href="/login.html">Iniciar Sesión</a></div>
+    </nav>
+  </header>
+  <main class="main-login">
+    <form class="form-login">
+      <h2 class="form-login__titulo">Bienvenido</h2>
+      <div class="form-login__container-inputs">
+        <div>
+          <input class="input" type="email" name="email" placeholder="Email" required>
+        </div>
+        <div>
+          <input class="input" type="password" name="password" placeholder="Password" required>
+        </div>
+      </div>
+      <div class="form-login__container-checkbox">
+        <div>
+          <input type="checkbox" name="recordarme" id="recordarme">
+          <span class="form-login__text-checkbox">Recordarme</span>
+        </div>
+        <div>
+          <span class="form-login__text-recupera-password">¿Olvidaste tu contraseña?</span>
+        </div>
+      </div>
+      <div class="form-login__container-buttons">
+        <button class="btn btn--adl"><a href="/">Iniciar sesión</a></button>
+        <button class="btn btn--google">
+          <img src="./assets/img/logos/google.png" alt="Google" width="20">
+          Iniciar sesión con Google
+        </button>
+
+      </div>
+      <div class="form-login__footer">
+        <p>¿No tienes una cuenta?
+          <a href="./registro.html"><strong>Regístrate</strong></a>
+        </p>
+      </div>
+    </form>
+    </section>
+  </main>
+
+</body>
+
+</html>

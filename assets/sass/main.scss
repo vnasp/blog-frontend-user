@@ -1,0 +1,37 @@
+// Abstracts
+@import "abstracts/functions";
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+// Base,s
+@import "base/reset";
+@import "base/typography";
+
+// Components
+@import "components/logo";
+@import "components/categories";
+@import "components/post";
+@import "components/buttons";
+@import "components/inputs";
+@import "components/newsletter";
+
+
+// Layout
+@import "layout/body";
+@import "layout/header";
+@import "layout/main";
+@import "layout/footer";
+@import "layout/novedades";
+@import "layout/populares";
+@import "layout/relacionados";
+@import "layout/form-login";
+@import "layout/form-registro";
+
+// Pages
+@import "pages/home";
+
+// Themes
+@import "themes/theme";
+
+// Vendors
+@import "vendors/bootstrap";

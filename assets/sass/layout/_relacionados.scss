@@ -1,0 +1,18 @@
+.relacionados {
+  display: flex;
+  flex-direction: column;
+  width: 298px;
+  margin:$sp5;
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1.25rem;
+    grid-row-gap: 2rem;
+  }
+
+  &__title {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+}

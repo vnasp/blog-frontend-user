@@ -1,0 +1,11 @@
+{
+  "name": "desafio_blog-frontend",
+  "version": "1.0.0",
+  "description": "Blog Frontend",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch assets/sass/main.scss:assets/css/main.css"
+  },  
+  "author": "Valentina Muñoz",
+  "license": "ISC"
+}

@@ -1,0 +1,18 @@
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+
+  &__img {
+    height: 55px;
+    width: 55px;
+    border-radius: 10px;
+    margin-right: 1rem;
+  }
+
+  &__brand {
+    font-size: 1.275rem;
+    font-weight: 700;
+  }
+}

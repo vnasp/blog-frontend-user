@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Valentina Muñoz">
+  <meta name="description" content="Blog sobre programación Frontend">
+  <meta name="keywords" content="blog, frontend, programación web">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <title>Blog Frontend - Registro</title>
+</head>
+
+<body>
+  <header class="header">
+    <section class="logo">
+      <img src="./assets/img/logos/adl.png" class="logo__img" />
+      <a href="./">
+        <h1 class="logo__brand">Blog FrontEnd</h1>
+      </a>
+    </section>
+    <nav class="header__nav">
+      <div><a href="/registro.html">Registrarse</a></div>
+      <div><a href="/login.html">Iniciar Sesión</a></div>
+    </nav>
+  </header>
+  <main class="main-registro">
+    <form class="form-registro">
+      <h2 class="form-registro__titulo">Regístrate ¡Es gratis!</h2>
+      <div class="form-registro__container-inputs">
+        <div>
+          <input class="input" type="text" name="firstname" placeholder="Nombre" required>
+        </div>
+        <div>
+          <input class="input" type="text" name="lastname" placeholder="Apellido" required>
+        </div>
+        <div>
+          <input class="input" type="email" name="email" placeholder="Email" required>
+        </div>
+        <div>
+          <input class="input" type="password" name="password" placeholder="Contraseña" required>
+        </div>
+        <div>
+          <input class="input" type="password" name="password2" placeholder="Confirma tu contraseña" required>
+        </div>
+      </div>
+      <div class="form-registro__container-buttons">
+        <button class="btn btn--adl" type="submit">
+          <a href="./login.html">Crea tu cuenta</a></button>
+        <button class="btn btn--google">
+          <img src="./assets/img/logos/google.png" alt="Google" width="20">
+          Regístrate con Google
+        </button>
+
+      </div>
+      <div class="form-registro__footer">
+        ¿Ya tienes una cuenta? <b>Inicia sesión</b>
+      </div>
+    </form>
+
+    </section>
+  </main>
+  
+</body>
+</html>
