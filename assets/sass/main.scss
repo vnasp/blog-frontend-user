@@ -3,18 +3,12 @@
 @import "abstracts/variables";
 @import "abstracts/mixins";
 
-// Base,s
+// Vendors
+@import "vendors/bootstrap";
+
+// Bases
 @import "base/reset";
 @import "base/typography";
-
-// Components
-@import "components/logo";
-@import "components/categories";
-@import "components/post";
-@import "components/buttons";
-@import "components/inputs";
-@import "components/newsletter";
-
 
 // Layout
 @import "layout/body";
@@ -27,11 +21,16 @@
 @import "layout/form-login";
 @import "layout/form-registro";
 
+// Components
+@import "components/logo";
+@import "components/categories";
+@import "components/post";
+@import "components/buttons";
+@import "components/inputs";
+@import "components/newsletter";
+
 // Pages
 @import "pages/home";
 
 // Themes
 @import "themes/theme";
-
-// Vendors
-@import "vendors/bootstrap";
